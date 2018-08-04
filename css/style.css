@@ -1,0 +1,153 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+p {
+  font-family: 'Metrophobic', sans-serif;
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+p:hover {
+  color: #CAC960;
+}
+
+h1 {
+  font-family: 'Squada One', cursive;
+  color: #CAC960;
+  font-weight: 600;
+  font-size:54px;
+}
+
+h2 {
+  font-family: 'Squada One', cursive;
+  color: #CAC960;
+  font-weight: 600;
+  font-size:36px;
+  margin:0;
+  padding:2px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px
+}
+
+li {
+  font-family: 'Metrophobic', sans-serif;
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+#menu {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #C04848;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#menu-list {
+  display:flex;
+  flex-direction: column;
+}
+
+#results {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #C04848;
+  z-index: 10;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#results-text {
+  display:flex;
+  flex-direction: column;
+  padding: 40px;
+  font-size: 36px;
+}
+
+#game {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#map {
+  height: 100%;
+}
+
+#header {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   z-index: 5;
+   background-color: #C34348;
+   padding: 0px;
+   text-align: center;
+ }
+
+ #home {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 6;
+  background-color: #C34348;
+  height: 75px;
+  width: 75px;
+  display: flex;
+  border-radius: 0px 0px 50% 0px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+
+#locations {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 6;
+  background-color: #C04848;
+  padding: 15px;
+  text-align:left;
+  width: auto;
+  border-radius: 25px 0px 0px 0px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 20px;
+  width: 100%;
+  z-index: 4;
+  background-color: #C04848;
+  padding: 4px;
+  text-align: center;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.example {
+  font-size: 28px;
+}

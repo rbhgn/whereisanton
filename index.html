@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Where's Anton?!</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Metrophobic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
+  </head>
+  <body>
+    <div id="menu">
+      <div id="menu-list">
+        <div>
+        <h1>WHERE'S ANTON?!</h1>
+        </div>
+        <div>
+        <ul>
+          <li><p class="example">Amsterdam</p></li>
+          <li><p class="example">Paris</p></li>
+          <li><p class="example">New York</p></li>
+          <li><p class="example">London</p></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div id="results"><div id="results-text"><p id="results-text-p">  </p></div>
+    </div>
+
+    <div id="game">
+      <div id="header"><h2>Where's Anton?!</h2></div>
+      <div id="home">
+        <div><img src="img/home-small.png" /></div>
+      </div>
+      <div id="map"></div>
+      <div id="locations">
+        <ul>
+          <li id="location-0"></li>
+          <li id="location-1"></li>
+          <li id="location-2"></li>
+        </ul>
+      </div>
+      <div id="footer"></div>
+    </div>
+    <script src="js/game.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_MAP_API&callback=initMap"></script>
+  </body>
+</html>
